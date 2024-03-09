@@ -10,8 +10,8 @@
 >  
 > My primary goal in forking is to modify the theme and study the codebase.  
 > I also plan to modify the codebase and scripts to improve development of this kernel on linux better.  
-> I do not plan to support any maintenance. This fork is only for personal use.  
-> But who knows, it might even turn out that I have introduced new features. ¯\_(ツ)_/¯  
+> I do not plan to maintain this fork though as this is only for personal use.  
+> But who knows, it might even turn out that I start developing new features as needs arise. ¯\_(ツ)_/¯  
 
 # SimpleLight 
 Hello all!
