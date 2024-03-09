@@ -1,4 +1,18 @@
-FORKED FROM https://github.com/ez-flash/omega-kernel
+> [!NOTE]  
+>  
+> FORKED FROM https://github.com/ez-flash/omega-kernel
+
+> [!IMPORTANT]  
+>  
+> This fork is based on version 3.45 of SimpleLight kernel.  
+> The lastest versions added `EvilJagaGenius`'s jagoomba fork which has  
+> save corruption issues.  
+> This is way Version 3.45 is most stable.  
+>  
+> My primary goal in forking is to modify the theme and study the codebase.  
+> I also plan to modify the codebase and scripts to improve development of this kernel on linux better.  
+> I do not plan to support any maintenance. This fork is only for personal use.  
+> But who knows, it might even turn out that I have introduced new features. ¯\_(ツ)_/¯  
 
 # SimpleLight 
 Hello all!
