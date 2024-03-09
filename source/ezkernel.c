@@ -136,25 +136,27 @@ u16 gl_sleep_on;
 u16 gl_cheat_on;
 
 //----------------------------------------
-u16 gl_color_selected = RGB(17, 23, 15); // all titels // #8ec07c
+u16 gl_color_selected = RGB(17, 23, 15); // all titles // #8ec07c
 #ifdef DARK
 u16 gl_color_text = RGB(29, 27, 22); // main text color // #ebdbb2
 u16 gl_color_selectBG_sd =
     RGB(17, 23, 15); // selected item color in sdcard tab // #8ec07c
 u16 gl_color_selectBG_nor =
-    RGB(31, 9, 6); // selected item color in nor tab // #fb4934
-u16 gl_color_MENU_btn =
-    RGB(26, 11, 2); // selection button color in option tab // #d65d0e
+    RGB(8, 16, 17); // selected item color in nor tab // #458588
+u16 gl_color_MENU_btn = RGB(8, 16, 17); // button color in option tab // #458588
 #else
-u16 gl_color_text = RGB(00, 00, 00);
-u16 gl_color_selectBG_sd = RGB(19, 19, 31);
-u16 gl_color_selectBG_nor = RGB(15, 28, 7);
-u16 gl_color_MENU_btn = RGB(23, 23, 23);
+u16 gl_color_text = RGB(5, 5, 5); // #282828
+u16 gl_color_selectBG_sd =
+    RGB(17, 23, 15); // selected item color in sdcard tab // #8ec07c
+u16 gl_color_selectBG_nor =
+    RGB(8, 16, 17); // selected item color in nor tab // #458588
+u16 gl_color_MENU_btn = RGB(8, 16, 17); // button color in option tab // #458588
 #endif
-u16 gl_color_cheat_count = RGB(00, 31, 00);
-u16 gl_color_cheat_black = RGB(00, 00, 00);
-u16 gl_color_NORFULL = RGB(31, 00, 00);
-u16 gl_color_btn_clean = RGB(13, 19, 13);
+u16 gl_color_cheat_count = RGB(31, 31, 00);
+u16 gl_color_cheat_black = RGB(5, 5, 5); // #282828
+u16 gl_color_NORFULL = RGB(31, 9, 6);    // #fb4934
+u16 gl_color_btn_clean =
+    RGB(17, 23, 15); // selected button color in option tab // #8ec07c
 //******************************************************************************
 void delay(u32 R0) {
   int volatile i;
